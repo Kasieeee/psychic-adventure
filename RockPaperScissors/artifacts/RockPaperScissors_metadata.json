@@ -1,0 +1,215 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum RockPaperScissors.Choice",
+						"name": "_choice",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"name": "commit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "determineWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isPlayer1Committed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isPlayer1Revealed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isPlayer2Committed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isPlayer2Revealed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "player1",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "playerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "commitment",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "enum RockPaperScissors.Choice",
+						"name": "choice",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "wager",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "player2",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "playerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "commitment",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "enum RockPaperScissors.Choice",
+						"name": "choice",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "wager",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum RockPaperScissors.Choice",
+						"name": "_choice",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"name": "reveal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_player1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_player2",
+						"type": "address"
+					}
+				],
+				"name": "setPlayers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RockPaperScissors.sol": "RockPaperScissors"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RockPaperScissors.sol": {
+			"keccak256": "0xb00e3ec2b2049dbb6c2d34ce8b882a608619f02d677bf5eafe796b7ed1c682c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ceb2ccd4401ce9497931f6ec7fcedf0c0d283cff033a94bef11480decee82567",
+				"dweb:/ipfs/QmULDjjnChhz15Smyasj7Lz9reKiVEEwYgSeZVc71PQdh6"
+			]
+		}
+	},
+	"version": 1
+}
